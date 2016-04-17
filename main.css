@@ -44,6 +44,11 @@ body {
   border: 1px solid black;
 }
 
+.show-amount:hover {
+  border-color: #dd8040;
+  cursor: pointer;
+}
+
 .category > li.category-name {
   font-size: 25px;
   border-bottom: 3px solid black;
@@ -70,6 +75,7 @@ li.show-clue, li.show-answer {
 .amount {
   color: #dd8040;
   font-size: 32px;
+  font-family: impact;
 }
 
 .clue {
