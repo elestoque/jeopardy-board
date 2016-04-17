@@ -1,0 +1,64 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#board {
+  overflow: hidden;
+}
+
+html, body, #pageWrapper, #board {
+  height: 100%;
+}
+
+.category {
+  float: left;
+  width: 20%;
+  height: 100%;
+  list-style: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.category > li {
+  height: 16%;
+  background-color: #15006f;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.question-tile span {
+  display: none;
+}
+
+li.show-question, li.show-answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.show-amount .amount,
+.show-question .question,
+.show-answer .answer,
+.revealed .answer {
+  display: inline;
+}
+
+.amount {
+  color: #dd8040;
+}
+
+.question {
+  display: none;
+}
+
+.answer {
+  display: none;
+}
