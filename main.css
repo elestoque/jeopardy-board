@@ -56,21 +56,33 @@ body {
 }
 
 .clue-tile span {
-  display: none;
-}
-
-li.show-clue, li.show-answer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+  opacity: 0;
 }
 
 .show-amount .amount,
 .show-clue .clue,
 .show-answer .answer {
-  display: inline;
+    z-index: 3;
+    opacity: 1;
+}
+
+.show-clue .clue,
+.show-answer .answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #15006f;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-clue .clue {
+  transition: opacity .5s;
 }
 
 .amount {
@@ -81,11 +93,14 @@ li.show-clue, li.show-answer {
 }
 
 .clue {
-  display: none;
+  width: 0;
+  height: 0;
   font-size: 5vw;
+  transform-origin: 0 0;
 }
 
 .answer {
-  display: none;
+  width: 0;
+  height: 0;
   font-size: 5vw;
 }
