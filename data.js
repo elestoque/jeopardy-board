@@ -1,161 +1,162 @@
 window.GAME_STATE = {
-  "Category 1": [
+  "Game Plan and Equipment": [
     {
       "amount": 200,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "soothing tool",
+      "answer": "What is a pacifier?",
       "revealed": false
     },
     {
       "amount": 400,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "cleaning squares",
+      "answer": "What are baby wipes?",
       "revealed": false
     },
     {
       "amount": 600,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "five point safety harness",
+      "answer": "What is a car seat?",
       "revealed": false
     },
     {
       "amount": 800,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "found 'in the tree' tops",
+      "answer": "What is a cradle?",
       "revealed": false
     },
     {
       "amount": 1000,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "$7,000",
+      "answer": "What is the cost to raise a child the first year (not including medical costs)?",
       "revealed": false
     }
   ],
-  "Category 2": [
+  "Pre-Game Know Your Nursery Rhymes": [
     {
       "amount": 200,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Jack and Jill went up the hill to fetch __________",
+      "answer": "What is a 'Pail Of Water' ?",
       "revealed": false
     },
     {
       "amount": 400,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "wagging their tails behind them.",
+      "answer": "What is 'Little Boy Peep' ?",
       "revealed": false
     },
     {
       "amount": 600,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Something that all the kings horses and men could not do.",
+      "answer": "What is 'Put Humpty together again' ?",
       "revealed": false
     },
     {
       "amount": 800,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "the little dog laughed to see such a sport",
+      "answer": "What is 'Hey Diddle Diddle' ?",
       "revealed": false
     },
+
     {
       "amount": 1000,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Jack's mother used this to fix his crown",
+      "answer": "What is Vinegar and brown paper?",
       "revealed": false
     }
   ],
-  "Category 3": [
+  "Arriving and Arrived": [
     {
       "amount": 200,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Contractions every 4-5 minutes for 1-2 hours, or water breaks",
+      "answer": "When is it time to go to the hospital?",
       "revealed": false
     },
     {
       "amount": 400,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Babies are born without this body part.",
+      "answer": "What are knee caps?",
       "revealed": false
     },
     {
       "amount": 600,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "First of the five senses to develop.",
+      "answer": "What is hearing?",
       "revealed": false
     },
     {
       "amount": 800,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Babies heads are_____________the size of their bodies at birth.",
+      "answer": "What is 'one quarter' ?",
       "revealed": false
     },
     {
       "amount": 1000,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Pregnant women should avoid deli style lunch meats because of this bacteria",
+      "answer": "What is Listeria?",
       "revealed": false
     }
   ],
-  "Category 4": [
+  "Name the Animal Family": [
     {
       "amount": 200,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Family of fish",
+      "answer": "What is a school?",
       "revealed": false
     },
     {
       "amount": 400,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Family of wolves",
+      "answer": "What is a pack?",
       "revealed": false
     },
     {
       "amount": 600,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Family of elephants",
+      "answer": "What is a herd?",
       "revealed": false
     },
     {
       "amount": 800,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Family of lions",
+      "answer": "What is a pride?",
       "revealed": false
     },
     {
       "amount": 1000,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Family of geese",
+      "answer": "What is a gaggle?",
       "revealed": false
     }
   ],
-  "Category 5": [
+  "Name the TV children": [
     {
       "amount": 200,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Name 1 of the 3 kids on The Simpsons",
+      "answer": "Who is Bart, Maggie or Lisa?",
       "revealed": false
     },
     {
       "amount": 400,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Name 3 of the 6 Brady Bunch kids",
+      "answer": "Who are Marcia, Jan, Cindy, Greg, Peter, or Bobby?",
       "revealed": false
     },
     {
       "amount": 600,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Name Fred and Wilma's child on The Flintstones",
+      "answer": "Who is Pebbles?",
       "revealed": false
     },
     {
       "amount": 800,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Name 1 of the 2 namse of Ross Gellar's kids on Friends",
+      "answer": "Who are Ben or Emma?",
       "revealed": false
     },
     {
       "amount": 1000,
-      "clue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et sem sodales, tempus augue nec, egestas neque. Etiam dui est, vulputate at lobortis vestibulum, facilisis sed libero.",
-      "answer": "What is foo?",
+      "clue": "Name 2 of the 5 Huxtable kids on The Cosby Show",
+      "answer": "Who are Sondra, Denise, Theo, Vanessa or Rudy?",
       "revealed": false
     }
   ]
