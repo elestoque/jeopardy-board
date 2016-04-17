@@ -67,6 +67,10 @@ body {
     opacity: 1;
 }
 
+.clue-tile.show-amount {
+  transform: translateZ(0); /* http://stackoverflow.com/a/15203880 */
+}
+
 .show-clue .clue,
 .show-answer .answer {
   position: absolute;
