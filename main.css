@@ -46,7 +46,7 @@ body {
 }
 
 .show-amount:hover {
-  border-color: #dd8040;
+  border-color: #d0aa54;
   cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ li.show-clue, li.show-answer {
 }
 
 .amount {
-  color: #dd8040;
+  color: #d0aa54;
   font-size: 5vw;
   font-family: impact;
   text-shadow: 0.5vw 0.4vw black;
