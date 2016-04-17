@@ -6,16 +6,20 @@ html {
   box-sizing: inherit;
 }
 
-#board {
-  overflow: hidden;
-}
-
 html, body, #pageWrapper, #board {
   height: 100%;
 }
 
 body {
   background-color: #15006f;
+}
+
+#board {
+  overflow: hidden;
+}
+
+#pageWrapper {
+  border: 3px solid black;
 }
 
 .category {
@@ -26,20 +30,23 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
+  border-collapse: collapse;
 }
 
 .category > li {
-  height: 16%;
+  height: 16.66%;
   background-color: #15006f;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   text-transform: uppercase;
   text-align: center;
+  border: 1px solid black;
 }
 
-.category-name {
+.category > li.category-name {
   font-size: 25px;
+  border-bottom: 3px solid black;
 }
 
 .clue-tile span {
