@@ -7,6 +7,7 @@ html {
 }
 
 html, body, #pageWrapper, #board {
+  width: 100%;
   height: 100%;
 }
 
@@ -16,15 +17,15 @@ body {
 
 #board {
   overflow: hidden;
+  border: 0.3vw solid black;
 }
 
 #pageWrapper {
-  border: 3px solid black;
 }
 
 .category {
   float: left;
-  width: 20%;
+  width: 19.88vw;
   height: 100%;
   list-style: none;
   color: #fff;
@@ -41,7 +42,7 @@ body {
   align-items: center; /* align vertical */
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid black;
+  border: 0.1vw solid black;
 }
 
 .show-amount:hover {
@@ -50,8 +51,8 @@ body {
 }
 
 .category > li.category-name {
-  font-size: 25px;
-  border-bottom: 3px solid black;
+  font-size: 2vw;
+  border-bottom: 0.3vw solid black;
 }
 
 .clue-tile span {
@@ -62,8 +63,8 @@ li.show-clue, li.show-answer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .show-amount .amount,
@@ -74,16 +75,17 @@ li.show-clue, li.show-answer {
 
 .amount {
   color: #dd8040;
-  font-size: 32px;
+  font-size: 5vw;
   font-family: impact;
+  text-shadow: 0.5vw 0.4vw black;
 }
 
 .clue {
   display: none;
-  font-size: 45px;
+  font-size: 5vw;
 }
 
 .answer {
   display: none;
-  font-size: 45px;
+  font-size: 5vw;
 }
