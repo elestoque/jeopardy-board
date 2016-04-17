@@ -8,9 +8,9 @@
 
 function buildTile (tileData) {
   var html =
-  '<li class="question-tile show-amount">' +
-    '<span class="amount">' + tileData.amount + '</span>' +
-    '<span class="question">' + tileData.question + '</span>' +
+  '<li class="clue-tile show-amount">' +
+    '<span class="amount">$' + tileData.amount + '</span>' +
+    '<span class="clue">' + tileData.clue + '</span>' +
     '<span class="answer">' + tileData.answer + '</span>' +
   '</li>';
 
@@ -39,15 +39,15 @@ function buildBoard () {
 //------------------------------------------------------------------------------
 
 function clickAmount (el) {
-  el.className = 'question-tile show-question';
+  el.className = 'clue-tile show-clue';
 }
 
-function clickQuestion (el) {
-  el.className = 'question-tile show-answer';
+function clickClue (el) {
+  el.className = 'clue-tile show-answer';
 }
 
 function clickAnswer (el) {
-  el.className = 'question-tile revealed';
+  el.className = 'clue-tile revealed';
 }
 
 // Doing some basic event delegation for click events on the game board
@@ -55,28 +55,23 @@ function boardClickHandler(event) {
   var clickedEl = event.target;
   var tagName = clickedEl.tagName;
 
-  if(tagName !== 'LI' && tagName !== 'SPAN') return;
+  if (tagName !== 'LI' && tagName !== 'SPAN') return;
 
-  var classList = clickedEl.classList;
-  var parentEl = clickedEl.parentNode;
+  var el = clickedEl;
+  if (tagName === 'SPAN') {
+    el = clickedEl.parentNode;
+  }
+
+  var classList = el.classList;
 
   if (classList.contains("show-amount")) {
-    clickAmount(clickedEl);
+    clickAmount(el);
   }
-  else if (parentEl.classList.contains("show-amount")) {
-    clickAmount(parentEl);
-  }
-  else if (classList.contains("show-question")) {
-    clickQuestion(clickedEl);
-  }
-  else if (parentEl.classList.contains("show-question")) {
-    clickQuestion(parentEl);
+  else if (classList.contains("show-clue")) {
+    clickClue(el);
   }
   else if (classList.contains("show-answer")) {
-    clickAnswer(clickedEl);
-  }
-  else if (parentEl.classList.contains("show-answer")) {
-    clickAnswer(parentEl);
+    clickAnswer(el);
   }
 }
 

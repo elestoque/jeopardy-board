@@ -14,6 +14,10 @@ html, body, #pageWrapper, #board {
   height: 100%;
 }
 
+body {
+  background-color: #15006f;
+}
+
 .category {
   float: left;
   width: 20%;
@@ -30,13 +34,19 @@ html, body, #pageWrapper, #board {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.question-tile span {
+.category-name {
+  font-size: 25px;
+}
+
+.clue-tile span {
   display: none;
 }
 
-li.show-question, li.show-answer {
+li.show-clue, li.show-answer {
   position: absolute;
   top: 0;
   left: 0;
@@ -45,20 +55,22 @@ li.show-question, li.show-answer {
 }
 
 .show-amount .amount,
-.show-question .question,
-.show-answer .answer,
-.revealed .answer {
+.show-clue .clue,
+.show-answer .answer {
   display: inline;
 }
 
 .amount {
   color: #dd8040;
+  font-size: 32px;
 }
 
-.question {
+.clue {
   display: none;
+  font-size: 45px;
 }
 
 .answer {
   display: none;
+  font-size: 45px;
 }
