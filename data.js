@@ -31,7 +31,7 @@ window.GAME_STATE = {
       "revealed": false
     }
   ],
-  "Pre-Game Know Your Nursery Rhymes": [
+  "Nursery Rhymes": [
     {
       "amount": 200,
       "clue": "Jack and Jill went up the hill to fetch __________",
