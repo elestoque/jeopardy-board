@@ -149,7 +149,7 @@ window.GAME_STATE = {
     },
     {
       "amount": 800,
-      "clue": "Name 1 of the 2 namse of Ross Gellar's kids on Friends",
+      "clue": "Name 1 of Ross Gellar's kids on Friends",
       "answer": "Who are Ben or Emma?",
       "revealed": false
     },
