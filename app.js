@@ -50,7 +50,7 @@ function buildBoard (gameState) {
     return buildCategory(categoryName, gameState[categoryName]);
   }).join('');
 
-  return '<div id="board">' + categoriesHtml + '</div>';
+  return categoriesHtml;
 }
 
 //------------------------------------------------------------------------------
@@ -101,14 +101,26 @@ function boardClickHandler(event) {
   }
 }
 
+function clickReset(event) {
+  event.preventDefault();
+  localStorage.removeItem(LOCAL_STORAGE_KEY);
+  document.location.reload();
+}
+
 //------------------------------------------------------------------------------
 // Init
 //------------------------------------------------------------------------------
 
 function init() {
   loadGameState();
-  document.getElementById("pageWrapper").innerHTML = buildBoard(GAME_STATE);
-  document.getElementById("board").addEventListener('click', boardClickHandler);
+
+  var boardEl = document.getElementById("board");
+  var resetEl = document.getElementById("reset");
+
+  boardEl.innerHTML = buildBoard(GAME_STATE);
+  boardEl.addEventListener('click', boardClickHandler);
+
+  resetEl.addEventListener('click', clickReset);
 }
 
 window.onload = init;
